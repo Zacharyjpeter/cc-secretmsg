@@ -51,4 +51,5 @@ console.log(secretMessage.indexOf("get"));
 console.log(secretMessage.indexOf("time"));
 console.log(secretMessage.slice(6, 10));
 secretMessage.splice(6, 5, "know");
-console.log(secretMessage);
+console.log(secretMessage.join(" "));
+//OUtput: Programming is not about what you know it is about what you can figure out. -2015, Chris Pine, Learn to Program
